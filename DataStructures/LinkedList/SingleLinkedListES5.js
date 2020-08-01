@@ -51,3 +51,5 @@ List.prototype.printForward = function () {
 
 let list = new List(1, 2, 3);
 list.printForward();
+list.pushBack(4, 5, 6);
+list.printForward();
