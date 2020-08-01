@@ -1,17 +1,3 @@
-/*
- * ----------------------------------------------------------------------
- * File:      IterativeRangeGenerator.js
- * Project:   Iterative
- * Author:    Sanjay Vyas
- * 
- * Description:
- *    Range generator in JavaScript, similar to Python 
- * ----------------------------------------------------------------------
- * Revision History:
- * 2020-Aug-02	[SV]: Created
- * ----------------------------------------------------------------------
- */
-
 
 function* range(start, end, skip) {
 
