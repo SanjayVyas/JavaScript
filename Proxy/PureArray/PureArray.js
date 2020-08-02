@@ -13,38 +13,38 @@
  */
 
 // Normal usage
-// console.log("const normalArray = [11, 23, 35];");
-// const normalArray = [11, 23, 35];
-// console.log(normalArray);
+console.log("const normalArray = [11, 23, 35];");
+const normalArray = [11, 23, 35];
+console.log(normalArray);
 
-// // Adding by index
-// console.log("normalArray[3] = 48;");
-// normalArray[3] = 48;
-// console.log(normalArray);
+// Adding by index
+console.log("normalArray[3] = 48;");
+normalArray[3] = 48;
+console.log(normalArray);
 
-// // Non positive index get added as keys
-// console.log("normalArray[-1]=5");
-// normalArray[-1] = 5
-// console.log(normalArray);
+// Non positive index get added as keys
+console.log("normalArray[-1]=5");
+normalArray[-1] = 5
+console.log(normalArray);
 
-// // Even string
-// normalArray['foo'] = 'bar';
-// console.log("normalArray['foo'] = 'bar';")
-// console.log(normalArray);
+// Even string
+normalArray['foo'] = 'bar';
+console.log("normalArray['foo'] = 'bar';")
+console.log(normalArray);
 
-// // for of gives only positive index
-// console.log("for (let index of normalArray)");
-// for (let element of normalArray)
-//   console.log(element);
+// for of gives only positive index
+console.log("for (let index of normalArray)");
+for (let element of normalArray)
+  console.log(element);
 
-// // for in gives ALL key/value pairs
-// console.log("for (let index in normalArray)");
-// for (let index in normalArray)
-//   console.log(`${index}: ${normalArray[index]}`);
+// for in gives ALL key/value pairs
+console.log("for (let index in normalArray)");
+for (let index in normalArray)
+  console.log(`${index}: ${normalArray[index]}`);
 
-// // It counts only positive index
-// console.log("normalArray.length");
-// console.log(normalArray.length);
+// It counts only positive index
+console.log("normalArray.length");
+console.log(normalArray.length);
 
 // Array proxy
 const PureArray = (...args) =>
