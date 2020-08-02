@@ -19,6 +19,8 @@ let debug = console.log;
 // Check if given number is prime
 const isPrime = number => {
 
+  if (number < 2) return false;
+
   // Divide number by all numbers from 2 to sqrt(number)
   // If divisible, then its not a prime
   let div;
