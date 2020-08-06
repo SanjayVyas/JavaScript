@@ -60,7 +60,7 @@ class SizeOf {
       return 4;
 
     refs.set(object);
-    return tgis.#sizeOf(object, refs);
+    return this.#sizeOf(object, refs);
   }
 
   /*
