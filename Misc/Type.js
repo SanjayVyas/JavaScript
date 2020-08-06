@@ -62,6 +62,3 @@ console.log(type(Map) == Function);           // true
 let map = new Map();
 console.log(type(map) == Map);                // true
 console.log(typeName(map));                   // Map
-
-
-
